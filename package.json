@@ -1,0 +1,17 @@
+{
+  "name": "backend-email-otp",
+  "version": "1.0.0",
+  "description": "Backend to send OTP via Gmail and verify it",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.14"
+  }
+}
