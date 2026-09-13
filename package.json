@@ -4,8 +4,9 @@
   "description": "Backend to send OTP via Gmail and verify it",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "dev": "node server.js"
+    "start": "node index.js",
+    "dev": "node index.js",
+    "vercel-build": "echo ok"
   },
   "dependencies": {
     "cors": "^2.8.5",
